@@ -1,0 +1,38 @@
+flutter_native_splash:
+  # Android için splash ekranını etkinleştiriyoruz.
+  android: true
+
+  # iOS için splash ekranını etkinleştiriyoruz.
+  ios: true
+
+  # Web için splash ekranını devre dışı bırakıyoruz.
+  web: false
+
+  # Splash ekranının arka plan resmini belirliyoruz.
+  background_image: "assets/image/background.png"
+
+  # Splash ekranında gösterilecek logoyu belirtiyoruz.
+  image: "assets/image/logo.png"
+
+  # Splash ekranında kullanılacak markalama resmini belirliyoruz.
+  branding: "assets/image/branding.png"
+
+  # Koyu tema için arka plan resmini belirliyoruz.
+  background_image_dark: "assets/image/background_dark.png"
+
+  # Koyu tema için gösterilecek logoyu belirtiyoruz.
+  image_dark: "assets/image/logo.png"
+
+  # Koyu tema için kullanılacak markalama resmini belirliyoruz.
+  branding_dark: "assets/image/branding.png"
+
+  # Android 12 için özel ayarlar.
+  android_12:
+    # Android 12 splash ekranı için arka plan rengini belirtiyoruz.
+    color: "#1a1967"
+
+    # Android 12'de gösterilecek logoyu belirtiyoruz.
+    image: "assets/image/android12_logo.png"
+
+    # Android 12'de kullanılacak markalama resmini belirtiyoruz.
+    branding: "assets/image/android12_branding.png"
